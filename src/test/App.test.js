@@ -7,7 +7,13 @@ import '@testing-library/jest-dom/extend-expect'
 
 import Movies from '../features/Movies'
 
-jest.mock('../ __mocks__ / intersectionObserverMocks')
+const observe = jest.fn()
+const unobserve = jest.fn()
+
+window.IntersectionObserver = jest.fn(() => ({
+  observe,
+  unobserve,
+}))
 
 export const handlers = [
   rest.get('/api/movies', (req, res, ctx) => {
