@@ -1,0 +1,4 @@
+-it should search Movies from input
+-it should show movies based on keyword
+-it show display picture from clicked image picture of movies
+-it should open page detail of movies

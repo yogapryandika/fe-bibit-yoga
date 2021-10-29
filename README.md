@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# Getting Started with GoMovies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To start the project
+
+change `.env.example` to `.env.local`
+
+then install the requirements module with :
+
+### `yarn`
+
+or
+
+### `npm install`
+
+after completed installation module you can run this app with
+
+### `npm run start`
 
 ## Available Scripts
 
